@@ -22,6 +22,7 @@ Linux:
 
 2. beautifulsoup4 (https://pypi.python.org/pypi/beautifulsoup4)
 "Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree."
+How to install
 Windows:
   >cd C:/Python27/Scripts
   
