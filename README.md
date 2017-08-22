@@ -11,7 +11,7 @@ website_monitor requires the following python libraries:
 1. requests (http://docs.python-requests.org/en/latest/)
 "Requests is an elegant and simple HTTP library for Python".
 How to install to Windows:
->C:/[path to]Python26/Scripts
+>C:/[path to]/Python27/Scripts
 >pip install requests
 How to install to Linux:
 >pip install requests
