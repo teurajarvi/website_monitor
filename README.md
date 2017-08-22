@@ -10,9 +10,18 @@ website_monitor requires the following python libraries:
 
 1. requests (http://docs.python-requests.org/en/latest/)
 "Requests is an elegant and simple HTTP library for Python".
-How to install to Windows:
->C:/[path to]/Python27/Scripts
->pip install requests
-How to install to Linux:
->pip install requests
+How to install
+Windows:
+  >C:/[path to]/Python27/Scripts
+  >pip install requests
+Linux:
+  >pip install requests
+
+2. beautifulsoup4 (https://pypi.python.org/pypi/beautifulsoup4)
+"Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree."
+Windows:
+  >C:/[path to]/Python27/Scripts
+  >pip install beutifulsoup4
+Linux:
+  >pip install beutifulsoup4
 
