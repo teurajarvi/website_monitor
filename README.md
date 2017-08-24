@@ -32,3 +32,14 @@ Linux:
 
   >pip install beutifulsoup4
 
+3. lxml parser (http://lxml.de/installation.html)
+"lxml is the most feature-rich and easy-to-use library for processing XML and HTML in the Python language."
+How to install
+Windows:
+  >cd C:/Python27/Scripts
+  
+  >pip install lxml
+  
+Linux:
+
+  >pip install lxml
