@@ -1,4 +1,24 @@
+#
+####### requirements.txt for website_monitor ####################
+#
+####### Requirements without Version Specifiers #################
 requests
 beautifulsoup4
 lxml
+
+#
+####### Requirements with Version Specifiers ####################
+# None
+
+#
+####### Refer to other requirements files #######################
+# None
+
+#
+####### A particular file #######################################
+# None
+
+#
+####### Additional Requirements without Version Specifiers ######
+# None   
 
