@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, sys.path[0]+'\\')
 
 import logging
-from monitor import monitor_pages
+from controllers.monitor import monitor_pages
 
 logging.basicConfig(filename='monitor.log', level=logging.INFO)
 logging.info('main of the system_monitor started')
