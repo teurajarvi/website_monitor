@@ -4,7 +4,7 @@
 This is the main of the mebsite_monitor
 '''
 import sys
-sys.path.insert(0, sys.path[0]+'\\controllers')
+sys.path.insert(0, sys.path[0]+'\\')
 
 import logging
 from monitor import monitor_pages
