@@ -4,9 +4,9 @@
 # Imports
 import requests               #for download the page
 import logging                #for adding the logs
-import logs
 from bs4 import BeautifulSoup #for parsing the http response data
 import time                   #for adding the delay
+# Internal package imports
 
 def monitor_pages():
     '''Download a web page and try to find a validation text from the page content.
