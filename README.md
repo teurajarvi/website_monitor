@@ -51,3 +51,22 @@ Windows:
 Linux:
 
   >pip install lxml
+
+4. configparser (3.5.0) (https://github.com/python/cpython/blob/3.6/Lib/configparser.py)
+"A configuration file consists of sections, lead by a "[section]" header,
+and followed by "name: value" entries, with continuations and such in
+the style of RFC 822.
+Intrinsic defaults can be specified by passing them into the
+ConfigParser constructor as a dictionary."
+
+How to install
+Windows:
+  >cd C:/Python27/Scripts
+  
+  >pip install configparser
+  
+Linux:
+
+  >pip install configparser
+
+
