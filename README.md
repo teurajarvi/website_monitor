@@ -6,6 +6,14 @@ Python 2.7.13 used (https://www.python.org/downloads/)
 If using Windows remember to add the python to the path:
 http://www.anthonydebarros.com/2015/08/16/setting-up-python-in-windows-10/
 
+# Install website_monitor with commands:
+>cd <root forder of the website_monitor>
+>python setyp.py install
+  
+# Run the application with command:
+>main.py
+
+# More info
 website_monitor requires the following python libraries:
 
 1. requests (http://docs.python-requests.org/en/latest/)
