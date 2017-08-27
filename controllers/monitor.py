@@ -22,7 +22,8 @@ def monitor_pages():
         # TODO: read the URLs from file. URL is set by the user or config
         #url = "http://www.Google.com/"
         #url = "http://www.yle.fi/"
-        url = "http://www.kaleva.fi/"		
+        #url = "http://www.kaleva.fi/"
+        url = "http://www.teurajarvi.net/"		
         #url = "http://www.fdkfjjdsaföjasöf.fi/"
 		
 	    # download the homepage
@@ -58,7 +59,7 @@ def monitor_pages():
 		
 		    # The log file contain the checked URLs, their status and the response times.
 		    # Validating the webpage content
-            if str(soup).find("Yle") == -1:
+            if str(soup).find("Jari-Pekka") == -1:
                 msg = ('Validation failed for {!s} with HTTP status {!s} with roundtrip {!s}'.format(url, response.status_code, roundtrip))
                 print('Warning: ' + msg)
                 logging.warning(msg)
