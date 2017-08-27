@@ -5,6 +5,7 @@
 requests
 beautifulsoup4
 lxml
+configparser
 
 #
 ####### Requirements with Version Specifiers ####################
