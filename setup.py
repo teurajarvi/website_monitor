@@ -1,10 +1,13 @@
 from distutils.core import setup
 
 # Install website_monitor with commands:
-# >cd [root forder of the website_monitor]
+# >cd [folder website_monitor-master]
 # >python setup.py install
 # run the application with command:
+# Windows:
 # >main.py
+# Linux:
+# >python main.py
 # Check the config.ini file to change the application values
 # Check the monitor_log.log file to track user logs
 
