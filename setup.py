@@ -17,5 +17,15 @@ setup(name='website_monitor',
       author='Jari-Pekka Teurajarvi',
       author_email='teurajarvi@hotmail.com',
       url='https://github.com/teurajarvi/website_monitor/',
-      packages=['.controllers', '.models', '.logs']
+      license='MIT',
+      classifiers=[
+        #   4 - Beta
+        #   5 - Production/Stable
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2.7'],
+      packages=['.controllers', '.models', '.logs'],
+      install_requires=['requests','beutifulsoup4','lxml','configparser']
 )
