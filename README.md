@@ -52,12 +52,8 @@ Linux:
 
   >pip install lxml
 
-4. configparser (3.5.0) (https://github.com/python/cpython/blob/3.6/Lib/configparser.py)
-"A configuration file consists of sections, lead by a "[section]" header,
-and followed by "name: value" entries, with continuations and such in
-the style of RFC 822.
-Intrinsic defaults can be specified by passing them into the
-ConfigParser constructor as a dictionary."
+4. configparser (https://docs.python.org/2/library/configparser.html)
+"The ConfigParser class implements a basic configuration file parser language which provides a structure similar to what you would find on Microsoft Windows INI files. You can use this to write Python programs which can be customized by end users easily."
 
 How to install
 Windows:
