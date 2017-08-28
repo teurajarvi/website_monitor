@@ -9,7 +9,7 @@ http://www.anthonydebarros.com/2015/08/16/setting-up-python-in-windows-10/
 # Install website_monitor with commands:
 >cd [root forder of the website_monitor]
 
->python setyp.py install
+>python setup.py install
   
 # Run the application with command:
 >main.py
