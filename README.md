@@ -30,7 +30,11 @@ Run the following commands in terminal:
 >python setup.py install --user
   
 # Run the application with command:
+Windows:
 >main.py
+
+Linux:
+>python main.py
 
 # Output and config
 Check website_monitor output from the monitor_log.log file. 
