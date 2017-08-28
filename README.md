@@ -7,14 +7,25 @@ If using Windows remember to add the python to the path:
 http://www.anthonydebarros.com/2015/08/16/setting-up-python-in-windows-10/
 
 # How to install website_monitor:
+Download website_monitor from https://github.com/teurajarvi/website_monitor as a zip file
 
 Windows:
+Unzip the website_monitor-master.zip to your hard drive:
+Right click on .zip file, and click on "Extract All" in context menu. In "Extract Compressed (Zipped) Folders" dialog, enter or browse folder path where you want files to be extracted.
+
+Run the following commands in terminal (cmd.exe):
 >cd [root forder of the website_monitor]
 
 >python setup.py install
 
 Linux:
->cd [root forder of the website_monitor]
+Unzip the wesite_monitor-master.zip to your hard drive:
+>sudo apt-get install unzip
+
+>unzip website_monitor-master.zip -d [destination_folder]
+
+Run the following commands in terminal:
+>cd [folder_website_monitor-master]
 
 >python setup.py install --user
   
