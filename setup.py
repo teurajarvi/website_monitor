@@ -30,6 +30,6 @@ setup(
       'Topic :: Software Development :: Build Tools',
       'License :: OSI Approved :: MIT License',
       'Programming Language :: Python :: 2.7'],
-    packages=['.controllers', '.models', '.logs'],
+    packages=['controllers', 'models', 'logs'],
     install_requires=['requests','beautifulsoup4','lxml','configparser']
 )
