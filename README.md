@@ -14,6 +14,11 @@ http://www.anthonydebarros.com/2015/08/16/setting-up-python-in-windows-10/
 # Run the application with command:
 >main.py
 
+# Output and config
+Check website_monitor output from the monitor_log.log file. 
+Command line observation also available.
+Change the application settings from the private/appconfig.ini file.
+
 # More info
 website_monitor requires the following python libraries:
 
